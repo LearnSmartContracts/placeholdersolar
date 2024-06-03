@@ -7,16 +7,48 @@
   align-items: center;
   background: linear-gradient(135deg, #964B00, #FFB84D, #FFA500);
   color: white;
+  padding: 20px; /* Add padding for better mobile view */
 }
 
 .App-header {
-  font-size: calc(10px + 2vmin);
+  font-size: 2rem;
 }
 
 h1 {
   font-size: 4rem;
+  margin: 0.5em 0; /* Add margin for better spacing */
 }
 
 p {
   font-size: 2rem;
+  margin: 0.5em 0; /* Add margin for better spacing */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .App-header {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
